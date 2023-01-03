@@ -1,0 +1,37 @@
+*,
+*::before *::after {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-weight: 400;
+  font-family: "Comic Sans", "Helvetica Neue", Helvetica, A;
+  background: rgba(255, 190, 167, 255);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+  border: 2px solid red;
+}
+
+.head-content {
+    display: flex;
+    height: 200px;
+    align-items: center;
+    margin-bottom: 50px;
+    border: 2px solid blue;
+  }
+
+  .bottom-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    border: 2px solid blueviolet;
+  }
